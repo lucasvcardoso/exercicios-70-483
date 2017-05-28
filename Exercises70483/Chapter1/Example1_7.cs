@@ -11,7 +11,7 @@ namespace Chapter1.ThreadClass
         /// <summary>
         /// Queueing some work to the thread pool
         /// </summary>
-        public static void Main()
+        public static void TMain()
         {
             //Because the thread pool limits the available number of threads, we do get a lesser degree of 
             //parallelism than using the regular Thread class.

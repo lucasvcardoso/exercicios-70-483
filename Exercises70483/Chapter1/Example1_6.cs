@@ -12,13 +12,13 @@ namespace Chapter1.ThreadClass
     class Example1_6
     {
         //In this example the ThreadLocal<T> type is used to create a global field
-        //that can be initialized in each thread that it is used separately
+        //that can be initialized in each thread in which it is used separately
         public static ThreadLocal<int> _field =
             new ThreadLocal<int>(() =>
             {
-                //Thread.CurrentThread can be used to get many information from the current thread,
+                //Thread.CurrentThread can be used to get many information from the current thread execution context,
                 //like de Current Culture (CultureInfo: currency, date formats, time formats, number formats, etc.),
-                //principal (current secutiry context), priority, and other info.
+                //principal (current security context), priority, and other info.
                 return Thread.CurrentThread.ManagedThreadId;
             });
         public static void TMain()
