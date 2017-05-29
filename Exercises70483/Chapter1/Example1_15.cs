@@ -14,7 +14,7 @@ namespace Chapter1.TaskClass
     /// </summary>
     public static class Example1_15
     {
-        public static void Main()
+        public static void TMain()
         {
             Task<int>[] tasks = new Task<int>[3];
 

@@ -49,6 +49,8 @@
     <Compile Include="Example1_13.cs" />
     <Compile Include="Example1_14.cs" />
     <Compile Include="Example1_15.cs" />
+    <Compile Include="Example1_16.cs" />
+    <Compile Include="Example1_17.cs" />
     <Compile Include="Example1_3.cs" />
     <Compile Include="Example1_2.cs" />
     <Compile Include="Example1_1.cs" />
