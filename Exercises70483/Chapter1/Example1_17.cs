@@ -18,7 +18,7 @@ namespace Chapter1.ParallelClass
     /// </summary>
     public static class Example1_17
     {
-        public static void Main()
+        public static void PMain()
         {
             ParallelLoopResult result = Parallel.
                 For(0, 1000, (int i, ParallelLoopState loopState) =>
