@@ -26,7 +26,8 @@ namespace Chapter1.AsyncAwait
                 .ConfigureAwait(false);//By doing this, the execution doesn't return to the calling context/thread.
 
             var Output = content;//In a WPF app, this line would throw an exception when trying to assign this string to a label,
-                                 //because this execution would never return to the calling context, that in this case is the UI thread.
+                                 //because this execution would never return to the calling context, that in this case would be
+                                 //the UI thread.
                                  //If doing something else, like writing to a text file, we wouldn't need this execution to 
                                  //go back to the UI thread (setting the SynchronizationContext)
         }
